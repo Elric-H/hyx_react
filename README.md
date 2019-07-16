@@ -1,7 +1,5 @@
 <h1 align="center">react-antd-admin</h1>
 
-<div align="center">
-
 An interest-oriented project.
 
 ## Templates
