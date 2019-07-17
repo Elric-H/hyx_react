@@ -1,4 +1,4 @@
-<h1 align="center">react-antd-admin</h1>
+<h1>react-antd-admin</h1>
 
 An interest-oriented project.
 
