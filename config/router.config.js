@@ -256,6 +256,18 @@ export default [
         ],
       },
       {
+        name: 'webGL',
+        icon: 'table',
+        path: '/webGL',
+        routes: [
+          {
+            path: '/webGL/points-waves',
+            name: 'points-waves',
+            component: './WebGL/Waves',
+          },
+        ],
+      },
+      {
         component: '404',
       },
     ],
