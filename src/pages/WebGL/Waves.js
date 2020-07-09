@@ -136,9 +136,7 @@ class Waves extends PureComponent {
     for (let ix = 0; ix < AMOUNTX; ix += 1) {
       for (let iy = 0; iy < AMOUNTY; iy += 1) {
         positions[i + 1] = Math.sin((ix + count) * 0.3) * 50 + Math.sin((iy + count) * 0.5) * 50;
-
         scales[j] = (Math.sin((ix + count) * 0.3) + 1) * 8 + (Math.sin((iy + count) * 0.5) + 1) * 8;
-
         i += 3;
         j += 1;
       }

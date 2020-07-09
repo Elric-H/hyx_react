@@ -265,8 +265,14 @@ export default [
             name: 'points-waves',
             component: './WebGL/Waves',
           },
+          {
+            path: '/webGL/learn1',
+            name: 'learn1',
+            component: './WebGL/Learn1',
+          },
         ],
       },
+
       {
         component: '404',
       },
