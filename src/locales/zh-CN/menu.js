@@ -35,6 +35,8 @@ export default {
   'menu.webGL': 'WebGL',
   'menu.webGL.points-waves': '点波纹',
   'menu.webGL.learn1': '随堂练习1',
+  'menu.webGL.learn2': '随堂练习2',
+  'menu.webGL.tree': 'canvas树',
   'menu.account.settings': '个人设置',
   'menu.account.trigger': '触发报错',
   'menu.account.logout': '退出登录',

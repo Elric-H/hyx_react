@@ -270,6 +270,16 @@ export default [
             name: 'learn1',
             component: './WebGL/Learn1',
           },
+          {
+            path: '/webGL/learn2',
+            name: 'learn2',
+            component: './WebGL/Learn2',
+          },
+          {
+            path: '/webGL/tree',
+            name: 'tree',
+            component: './WebGL/tree',
+          },
         ],
       },
 

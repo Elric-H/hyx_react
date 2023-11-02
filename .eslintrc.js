@@ -20,6 +20,7 @@ module.exports = {
     'react/forbid-prop-types': 0,
     'react/jsx-one-expression-per-line': 0,
     'import/no-unresolved': [2, { ignore: ['^@/', '^umi/'] }],
+    'import/extensions': 0,
     'import/no-extraneous-dependencies': [
       2,
       {
