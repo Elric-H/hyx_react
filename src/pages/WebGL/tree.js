@@ -79,16 +79,12 @@ const Test = () => {
   };
 
   useEffect(() => {
-    const sleep = s =>
-      new Promise(resolve => {
-        setTimeout(() => resolve('ok'), s);
-      });
-
     const init = async () => {
       setLoading(true);
-      const res = await sleep(10000);
-      console.log(res);
-      setLoading(false);
+      return new Promise(resolve => {
+        setTimeout(() => resolve(), 300);
+      }).finally(() => setLoading(false));
+      // setLoading(false);
     };
     init();
   }, []);
